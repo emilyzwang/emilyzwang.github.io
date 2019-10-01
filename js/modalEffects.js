@@ -11,7 +11,7 @@
  * Source: https://tympanus.net/codrops/2013/06/25/nifty-modal-window-effects/
  * Created by Mary Lou
  */
- */
+
 var ModalEffects = (function() {
 
 	function init() {
