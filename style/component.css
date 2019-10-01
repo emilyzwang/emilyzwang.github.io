@@ -1,3 +1,8 @@
+/*
+Source: https://tympanus.net/codrops/2013/06/25/nifty-modal-window-effects/
+Created by Mary Lou
+*/
+
 /* General styles for the modal */
 
 /*
@@ -12,14 +17,12 @@ perspective effects (not including the modals and the overlay).
 }
 
 .md-perspective body  {
-	background: #222;
 	-webkit-perspective: 600px;
 	-moz-perspective: 600px;
 	perspective: 600px;
 }
 
 .container {
-	background: #D3D3D3;
 	min-height: 100%;
 }
 
@@ -55,7 +58,7 @@ perspective effects (not including the modals and the overlay).
 	left: 0;
 	z-index: 1000;
 	opacity: 0;
-	background: rgba(0,0,0,0.8);
+	background: rgba(211,220,242,0.7);
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
@@ -68,8 +71,8 @@ perspective effects (not including the modals and the overlay).
 
 /* Content styles */
 .md-content {
-	color: #000;
-	background: #A9A9A9;
+	color: #fff;
+	background: #708090;
 	position: relative;
 	border-radius: 3px;
 	margin: 0 auto;
@@ -82,7 +85,7 @@ perspective effects (not including the modals and the overlay).
 	font-size: 2.4em;
 	font-weight: 300;
 	opacity: 0.8;
-	background: #2F4F2F;
+	background: rgba(0,0,0,0.1);
 	border-radius: 3px 3px 0 0;
 }
 
