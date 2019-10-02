@@ -21,6 +21,10 @@ a {
   color: inherit;
 }
 
+mark {
+  background-color: #fcebe8;
+}
+
 .text {
   position: relative;
   width: 80%;
