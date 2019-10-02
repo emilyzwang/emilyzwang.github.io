@@ -80,6 +80,7 @@ perspective effects (not including the modals and the overlay).
 
 .md-content a {
 	text-decoration: none;
+	color: #fff;
 }
 
 .md-content h3 {
