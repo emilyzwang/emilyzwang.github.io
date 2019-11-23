@@ -99,3 +99,7 @@ img {
 p, h1, h2 {
   margin: none;
 }
+
+@media screen and (max-width: 32em) {
+	body { font-size: 125%; }
+}
