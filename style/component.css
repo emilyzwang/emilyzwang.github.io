@@ -152,6 +152,6 @@ perspective effects (not including the modals and the overlay).
 	opacity: 1;
 }
 
-@media screen and (max-width: 32em) {
+@media screen and (max-width: 1000px) {
 	/* body { font-size: 75%; } */
 }
