@@ -21,6 +21,11 @@ a {
   color: inherit;
 }
 
+.padded {
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
 mark {
   background-color: #fcebe8;
 }
@@ -102,4 +107,8 @@ p, h1, h2 {
 
 @media screen and (max-width: 800px) {
 	body { font-size: 125%; }
+  .padded {
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
 }

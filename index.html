@@ -8,6 +8,7 @@
     <!-- <link rel="shortcut icon" type="image/png" href="img/"/> -->
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <link rel="stylesheet" type="text/css" href="style/component.css">
+    <link rel="icon" type="image/png" href="src/favicon.ico" />
   </head>
 
   <body>
@@ -125,6 +126,42 @@
         </div>
       </div>
     </div>
+    <div class="md-modal md-effect-1" id="anovaclubs">
+      <div class="md-content">
+        <a href='https://emilyzwang.github.io/ANovaClubs' target='blank'><h3>ANova Clubs Website</h3></a>
+        <h4>React • Semantic UI</h4>
+        <div>
+          <p align="center">An introductory-stage website for ANova Clubs, an extension of <a href='https://www.berkeleyanova.org' target='blank'>Berkeley ANova</a>. Created as an ANova Spring 2020 Ideathon project.</p>
+        </div>
+      </div>
+    </div>
+    <div class="md-modal md-effect-1" id="matching">
+      <div class="md-content">
+        <h3>The Music Connection Matching</h3>
+        <h4>Python • Pandas</h4>
+        <div>
+          <p align="center">Used the Pandas data science library to implement a greedy matching algorithm to pair tutors with students based on time availability, instrument, and priority level. Created for The Music Connection.</p>
+        </div>
+      </div>
+    </div>
+    <div class="md-modal md-effect-1" id="stock">
+      <div class="md-content">
+        <a href='https://emilyzwang.github.io/StockAssistant' target='blank'><h3>Stock Assistant</h3></a>
+        <h4>React • Yahoo Finance API</h4>
+        <div>
+          <p align="center">Created the game featured on the website to gain more experience in using React states, props, and components, as well as making API calls.</p>
+        </div>
+      </div>
+    </div>
+    <div class="md-modal md-effect-1" id="scheduler">
+      <div class="md-content">
+        <a href='https://emilyzwang.github.io/scheduler' target='blank'><h3>Scheduler</h3></a>
+        <h4>React • Semantic UI</h4>
+        <div>
+          <p align="center">An introductory project to learn the basics of React, JavaScript, and designing an user interface. In progress of improving web app to work with Google Calendar API.</p>
+        </div>
+      </div>
+    </div>
 
     <div class="container">
 
@@ -139,7 +176,7 @@
     </div>
 
     <div class="text">
-      <div id="home section">
+      <div id="home section" class='padded'>
         <br><br><br><br>
         <h1>Hi, I'm Emily!</h1>
         <p id="project anchor">I'm currently in my second year of studying Electrical Engineering and Computer Science at UC Berkeley. I'm passionate about programming, education, and creative design — check out my work below!</p>
@@ -152,15 +189,18 @@
 
       <hr>
 
-      <div id="project section">
+      <div id="project section" class='padded'>
         <br>
         <h1>PROJECTS</h1>
         <div class="main clearfix">
           <h2>CODE</h2>
 
+          <button class="md-trigger" data-modal="anovaclubs">ANova Clubs</button>
+          <button class="md-trigger" data-modal="stock">Stock Assistant</button>
+          <button class="md-trigger" data-modal="scheduler">Scheduler</button>
+          <button class="md-trigger" data-modal="matching">Matching Algorithm</button>
           <button class="md-trigger" data-modal="explore">explore berkeley!</button>
           <button class="md-trigger" data-modal="blockchain">Betting on the Blockchain</button>
-          <br>
           <button class="md-trigger" data-modal="world">Random World Generator</button>
           <button class="md-trigger" data-modal="bearmaps">BearMaps</button>
           <button class="md-trigger" data-modal="scheme">Scheme Interpreter</button>
